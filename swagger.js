@@ -15,7 +15,7 @@ const swaggerDefinition = {
             description: 'Development server',
         },
         {
-            url:'https://vercel.com/oliviawarners-projects/guid-gecko-api/GVgXqFEf7LHqtyYT8pxYapiCUXQd',
+            url:'https://guid-gecko-api.vercel.app/',
             description: 'Vercel server'
         }
     ],

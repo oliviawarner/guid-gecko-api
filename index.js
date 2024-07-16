@@ -56,6 +56,11 @@ app.get('/api/health', (req, res) => {
     res.json({ status: 'GUID Gecko API is running' });
 });
 
+// Endpoint to serve the Swagger spec
+app.get('/swagger.json', (req, res) => {
+    res.json(swaggerSpec);
+});
+
 // Swagger setup
 app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
